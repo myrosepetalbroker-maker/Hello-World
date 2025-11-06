@@ -1,1 +1,29 @@
 Hello World!
+
+## GitHub Copilot Package
+
+This repository now includes the GitHub Copilot CLI package.
+
+### Installation
+
+The project has been set up as a Node.js project with the following package installed:
+- `@github/copilot` v0.0.354 - GitHub Copilot CLI that brings the power of Copilot coding agent directly to your terminal.
+
+### Usage
+
+To install dependencies:
+```bash
+npm install
+```
+
+To use the GitHub Copilot CLI:
+```bash
+# Run the Copilot CLI
+npx @github/copilot
+
+# Or install globally and use directly
+npm install -g @github/copilot
+copilot
+```
+
+This will install all dependencies including the GitHub Copilot package.
