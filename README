@@ -11,9 +11,19 @@ The project has been set up as a Node.js project with the following package inst
 
 ### Usage
 
-To use the installed package:
+To install dependencies:
 ```bash
 npm install
+```
+
+To use the GitHub Copilot CLI:
+```bash
+# Run the Copilot CLI
+npx @github/copilot
+
+# Or install globally and use directly
+npm install -g @github/copilot
+copilot
 ```
 
 This will install all dependencies including the GitHub Copilot package.
